@@ -1,0 +1,585 @@
+/* All section responsive start here blew */
+/* extra small device responsive start */
+@media (min-width: 320px) and (max-width: 575px) {
+  /* common css start */
+  .title {
+    margin-bottom: 35px; }
+    .title h1 {
+      font-size: 26px; }
+
+  /* common css end */
+  /* navbar part start */
+  #navbar {
+    padding: 10px 0; }
+    #navbar .navbar-brand {
+      margin-left: 15px; }
+    #navbar button {
+      padding-top: 0;
+      padding-bottom: 0; }
+      #navbar button:focus {
+        outline: 0; }
+    #navbar ul {
+      background: rgba(26, 26, 26, 0.8);
+      padding-bottom: 15px; }
+      #navbar ul li {
+        margin-left: 0;
+        text-align: center; }
+        #navbar ul li a {
+          font-size: 14px;
+          padding: 6px 0; }
+          #navbar ul li a::after {
+            left: 45%; }
+
+  .nav_fixed ul {
+    padding-bottom: 0 !important; }
+
+  /* navbar part end */
+  /* banner part start */
+  #banner_part .banner_overlay::before {
+    width: 50%;
+    -webkit-clip-path: none;
+            clip-path: none; }
+  #banner_part .banner_overlay .banner_content .traingle {
+    width: 200px;
+    height: 200px; }
+    #banner_part .banner_overlay .banner_content .traingle::after {
+      width: 200px;
+      height: 185px; }
+  #banner_part .banner_overlay .banner_content .banner_text h1 {
+    font-size: 30px; }
+  #banner_part .banner_overlay .banner_content .banner_text h2 {
+    font-size: 16px;
+    width: 290px;
+    margin: 16px 0; }
+
+  /* banner part end */
+  /* about part start */
+  #about_part .about_overlay {
+    padding: 60px 0; }
+    #about_part .about_overlay .about_card {
+      width: 290px;
+      margin: 20px auto 0px auto; }
+    #about_part .about_overlay .about_text {
+      text-align: center; }
+      #about_part .about_overlay .about_text p {
+        padding: 16px 0; }
+    #about_part .about_overlay ul {
+      margin-bottom: 16px;
+      text-align: center; }
+    #about_part .about_overlay .icon {
+      text-align: center; }
+      #about_part .about_overlay .icon a {
+        margin-right: 5px; }
+
+  /* about part end */
+  /* skills part start */
+  #skills_part .skills_overlay {
+    padding: 60px 0; }
+    #skills_part .skills_overlay .row {
+      margin-bottom: 0 !important; }
+      #skills_part .skills_overlay .row .col-lg-3 {
+        margin-bottom: 16px; }
+
+  /* skills part end */
+  /* education part start */
+  #education .edu_overlay {
+    padding: 60px 0;
+    text-align: center; }
+    #education .edu_overlay .edu_details {
+      margin-bottom: 30px; }
+      #education .edu_overlay .edu_details h6 {
+        margin-bottom: 5px; }
+        #education .edu_overlay .edu_details h6::after, #education .edu_overlay .edu_details h6::before {
+          display: none; }
+      #education .edu_overlay .edu_details .row {
+        margin-bottom: 20px; }
+    #education .edu_overlay .exp_details h6 {
+      margin-bottom: 5px; }
+      #education .edu_overlay .exp_details h6::after, #education .edu_overlay .exp_details h6::before {
+        display: none; }
+    #education .edu_overlay .exp_details .row {
+      margin-bottom: 20px; }
+
+  /* education part end */
+  /* work part start */
+  #work_part .work_overlay {
+    padding: 60px 0; }
+    #work_part .work_overlay #porfolio-nav ul li {
+      width: auto;
+      margin: 0;
+      line-height: 26px; }
+      #work_part .work_overlay #porfolio-nav ul li:last-child {
+        margin-bottom: 0 !important; }
+      #work_part .work_overlay #porfolio-nav ul li a {
+        font-size: 14px !important; }
+
+  /* work part end */
+  /* clients part start */
+  #clients_part .clients_overlay {
+    padding: 60px 0 120px 0; }
+    #clients_part .clients_overlay .clients_item .left {
+      right: 30px; }
+    #clients_part .clients_overlay .clients_item .right {
+      right: 80px; }
+    #clients_part .clients_overlay .clients_card .first_row .col_content {
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      margin-bottom: 10px; }
+      #clients_part .clients_overlay .clients_card .first_row .col_content .img_text h3 {
+        font-size: 22px; }
+      #clients_part .clients_overlay .clients_card .first_row .col_content .img_text h4 {
+        font-size: 14px; }
+    #clients_part .clients_overlay .clients_card .img {
+      margin: 0 auto; }
+      #clients_part .clients_overlay .clients_card .img img {
+        margin: 0 auto; }
+    #clients_part .clients_overlay .clients_card .clients_text::after {
+      left: 50%;
+      -webkit-transform: translateX(-50%);
+              transform: translateX(-50%); }
+
+  /* clients part end */
+  /* contact part start */
+  #contact_part .contact_overlay {
+    padding: 60px 0; }
+    #contact_part .contact_overlay form input[type="text"],
+    #contact_part .contact_overlay form input[type="email"],
+    #contact_part .contact_overlay form input[type="text"],
+    #contact_part .contact_overlay form textarea {
+      margin-bottom: 16px; }
+    #contact_part .contact_overlay form button[type="submit"] {
+      padding: 8px; }
+    #contact_part .contact_overlay .contact_details {
+      margin-top: 16px;
+      text-align: center; }
+      #contact_part .contact_overlay .contact_details ul {
+        margin-bottom: 0; }
+        #contact_part .contact_overlay .contact_details ul li {
+          margin-bottom: 16px !important; }
+          #contact_part .contact_overlay .contact_details ul li .icon {
+            display: none; }
+          #contact_part .contact_overlay .contact_details ul li .text {
+            width: 100% !important; }
+          #contact_part .contact_overlay .contact_details ul li:last-child {
+            margin-bottom: 0 !important; }
+
+  /* contact part end */
+  /* footer part start */
+  #footer_part {
+    padding: 40px 0; }
+    #footer_part .footer_icons {
+      padding: 16px 0; }
+      #footer_part .footer_icons i {
+        margin-right: 5px; }
+
+  /* footer part end */
+  /* scroll to top button */
+  #to_top {
+    right: 20px; }
+    #to_top i {
+      width: 30px !important;
+      height: 45px !important;
+      line-height: 45px !important; }
+
+  /* scroll to top button */ }
+/* extra small device responsive end */
+/* small device responsive start */
+@media (min-width: 576px) and (max-width: 767px) {
+  /* common css start */
+  .title {
+    margin-bottom: 35px; }
+    .title h1 {
+      font-size: 26px; }
+
+  /* common css end */
+  /* navbar part start */
+  #navbar {
+    padding: 10px 0; }
+    #navbar .navbar-brand {
+      margin-left: 15px; }
+    #navbar button {
+      padding-top: 0;
+      padding-bottom: 0; }
+      #navbar button:focus {
+        outline: 0; }
+    #navbar ul {
+      background: rgba(26, 26, 26, 0.8);
+      padding-bottom: 15px; }
+      #navbar ul li {
+        margin-left: 0;
+        text-align: center; }
+        #navbar ul li a {
+          font-size: 14px;
+          padding: 6px 0; }
+          #navbar ul li a::after {
+            left: 45%; }
+
+  .nav_fixed ul {
+    padding-bottom: 0 !important; }
+
+  /* navbar part end */
+  /* banner part start */
+  #banner_part .banner_overlay::before {
+    width: 50%;
+    -webkit-clip-path: none;
+            clip-path: none; }
+  #banner_part .banner_overlay .banner_content .traingle {
+    width: 200px;
+    height: 200px; }
+    #banner_part .banner_overlay .banner_content .traingle::after {
+      width: 200px;
+      height: 185px; }
+  #banner_part .banner_overlay .banner_content .banner_text h1 {
+    font-size: 30px; }
+  #banner_part .banner_overlay .banner_content .banner_text h2 {
+    font-size: 16px;
+    width: 290px;
+    margin: 16px 0; }
+
+  /* banner part end */
+  /* about part start */
+  #about_part .about_overlay {
+    padding: 60px 0; }
+    #about_part .about_overlay .about_card {
+      margin-bottom: 20px;
+      margin: 20px auto 0px auto; }
+    #about_part .about_overlay .about_text p {
+      padding: 16px 0; }
+    #about_part .about_overlay ul {
+      margin-bottom: 16px; }
+      #about_part .about_overlay ul li {
+        font-size: 15px; }
+    #about_part .about_overlay .icon a {
+      margin-right: 5px; }
+
+  /* about part end */
+  /* skills part start */
+  #skills_part .skills_overlay {
+    padding: 60px 0; }
+    #skills_part .skills_overlay .row {
+      margin-bottom: 0 !important; }
+      #skills_part .skills_overlay .row .col-lg-3 {
+        margin-bottom: 16px; }
+
+  /* skills part end */
+  /* education part start */
+  #education .edu_overlay {
+    padding: 60px 0; }
+    #education .edu_overlay .edu_details {
+      margin-bottom: 40px; }
+      #education .edu_overlay .edu_details .row {
+        margin-bottom: 20px; }
+    #education .edu_overlay .exp_details .row {
+      margin-bottom: 20px; }
+
+  /* education part end */
+  /* work part start */
+  #work_part .work_overlay {
+    padding: 60px 0; }
+    #work_part .work_overlay #porfolio-nav ul li {
+      width: auto;
+      margin: 0;
+      line-height: 26px; }
+      #work_part .work_overlay #porfolio-nav ul li:last-child {
+        margin-bottom: 0 !important; }
+      #work_part .work_overlay #porfolio-nav ul li a {
+        font-size: 14px !important; }
+    #work_part .work_overlay #elastic_grid_demo #og-grid li {
+      width: 45%; }
+      #work_part .work_overlay #elastic_grid_demo #og-grid li a img {
+        height: 229px; }
+      #work_part .work_overlay #elastic_grid_demo #og-grid li .elastislide-list {
+        max-height: 115px !important; }
+
+  /* work part end */
+  /* clients part start */
+  #clients_part .clients_overlay {
+    padding: 60px 0 120px 0; }
+    #clients_part .clients_overlay .clients_item .left {
+      right: 30px; }
+    #clients_part .clients_overlay .clients_item .right {
+      right: 80px; }
+    #clients_part .clients_overlay .clients_card .first_row .col_content {
+      -webkit-box-pack: end;
+          -ms-flex-pack: end;
+              justify-content: flex-end;
+      margin-bottom: 10px; }
+      #clients_part .clients_overlay .clients_card .first_row .col_content .img_text h3 {
+        font-size: 22px; }
+      #clients_part .clients_overlay .clients_card .first_row .col_content .img_text h4 {
+        font-size: 14px; }
+    #clients_part .clients_overlay .clients_card .img img {
+      margin: 0 auto; }
+    #clients_part .clients_overlay .clients_card .clients_text::after {
+      left: 78%; }
+
+  /* clients part end */
+  /* contact part start */
+  #contact_part .contact_overlay {
+    padding: 60px 0; }
+    #contact_part .contact_overlay form input[type="text"],
+    #contact_part .contact_overlay form input[type="email"],
+    #contact_part .contact_overlay form input[type="text"],
+    #contact_part .contact_overlay form textarea {
+      margin-bottom: 16px; }
+    #contact_part .contact_overlay form button[type="submit"] {
+      padding: 8px; }
+    #contact_part .contact_overlay .contact_details {
+      margin-top: 16px; }
+      #contact_part .contact_overlay .contact_details ul {
+        margin-bottom: 0; }
+        #contact_part .contact_overlay .contact_details ul li {
+          margin-bottom: 16px !important; }
+          #contact_part .contact_overlay .contact_details ul li .icon {
+            width: 12% !important; }
+          #contact_part .contact_overlay .contact_details ul li:last-child {
+            margin-bottom: 0 !important; }
+
+  /* contact part end */
+  /* footer part start */
+  #footer_part {
+    padding: 40px 0; }
+    #footer_part .footer_icons {
+      padding: 16px 0; }
+      #footer_part .footer_icons i {
+        margin-right: 5px; }
+
+  /* footer part end */
+  /* scroll to top button */
+  #to_top {
+    right: 20px; }
+    #to_top i {
+      width: 30px !important;
+      height: 45px !important;
+      line-height: 45px !important; }
+
+  /* scroll to top button */ }
+/* small device responsive end */
+/* medium device responsive start */
+@media (min-width: 768px) and (max-width: 991px) {
+  /* common css start */
+  .title {
+    margin-bottom: 40px; }
+    .title h1 {
+      font-size: 26px; }
+
+  /* common css end */
+  /* navbar part start */
+  #navbar .navbar-brand {
+    margin-left: 15px; }
+  #navbar button {
+    padding-top: 0;
+    padding-bottom: 0; }
+    #navbar button:focus {
+      outline: 0; }
+  #navbar ul {
+    background: rgba(26, 26, 26, 0.8);
+    padding-bottom: 15px; }
+    #navbar ul li {
+      margin-left: 0;
+      text-align: center; }
+      #navbar ul li a::after {
+        left: 45%; }
+
+  .nav_fixed ul {
+    padding-bottom: 0 !important; }
+
+  /* navbar part end */
+  /* banner part start */
+  #banner_part .banner_overlay .banner_content .banner_text h1 {
+    font-size: 40px; }
+  #banner_part .banner_overlay .banner_content .banner_text h2 {
+    font-size: 20px;
+    margin: 16px 0; }
+
+  /* banner part end */
+  /* about part start */
+  #about_part .about_overlay {
+    padding: 60px 0; }
+    #about_part .about_overlay .about_card {
+      margin-bottom: 20px;
+      margin: 20px auto 0px auto; }
+    #about_part .about_overlay .about_text {
+      margin-top: 16px; }
+      #about_part .about_overlay .about_text p {
+        padding: 16px 0; }
+    #about_part .about_overlay ul {
+      margin-bottom: 16px; }
+      #about_part .about_overlay ul li {
+        font-size: 15px; }
+
+  /* about part end */
+  /* skills part start */
+  #skills_part .skills_overlay {
+    padding: 60px 0; }
+    #skills_part .skills_overlay .row {
+      margin-bottom: 0 !important; }
+      #skills_part .skills_overlay .row .col-lg-3 {
+        margin-bottom: 16px; }
+
+  /* skills part end */
+  /* education part start */
+  #education .edu_overlay {
+    padding: 60px 0; }
+    #education .edu_overlay .edu_details {
+      margin-bottom: 30px; }
+      #education .edu_overlay .edu_details h6 {
+        margin-bottom: 10px; }
+        #education .edu_overlay .edu_details h6::after, #education .edu_overlay .edu_details h6::before {
+          display: none; }
+      #education .edu_overlay .edu_details .row {
+        margin-bottom: 20px; }
+    #education .edu_overlay .exp_details h6 {
+      margin-bottom: 10px; }
+      #education .edu_overlay .exp_details h6::after, #education .edu_overlay .exp_details h6::before {
+        display: none; }
+    #education .edu_overlay .exp_details .row {
+      margin-bottom: 20px; }
+
+  /* education part end */
+  /* work part start */
+  #work_part .work_overlay {
+    padding: 60px 0; }
+    #work_part .work_overlay #porfolio-nav ul li {
+      width: auto;
+      margin: 0;
+      line-height: 26px; }
+      #work_part .work_overlay #porfolio-nav ul li:last-child {
+        margin-bottom: 0 !important; }
+
+  /* work part end */
+  /* clients part start */
+  #clients_part .clients_overlay {
+    padding: 60px 0 120px 0; }
+    #clients_part .clients_overlay .clients_item .left {
+      right: 30px; }
+    #clients_part .clients_overlay .clients_item .right {
+      right: 80px; }
+    #clients_part .clients_overlay .clients_card .first_row .col_content {
+      -webkit-box-pack: end;
+          -ms-flex-pack: end;
+              justify-content: flex-end;
+      margin-bottom: 10px; }
+      #clients_part .clients_overlay .clients_card .first_row .col_content .img_text h3 {
+        font-size: 22px; }
+      #clients_part .clients_overlay .clients_card .first_row .col_content .img_text h4 {
+        font-size: 14px; }
+    #clients_part .clients_overlay .clients_card .clients_text::after {
+      left: 83%; }
+
+  /* clients part end */
+  /* contact part start */
+  #contact_part .contact_overlay {
+    padding: 60px 0; }
+    #contact_part .contact_overlay form input[type="text"],
+    #contact_part .contact_overlay form input[type="email"],
+    #contact_part .contact_overlay form input[type="text"],
+    #contact_part .contact_overlay form textarea {
+      margin-bottom: 16px; }
+    #contact_part .contact_overlay form button[type="submit"] {
+      padding: 8px; }
+    #contact_part .contact_overlay .contact_details {
+      margin-top: 30px; }
+      #contact_part .contact_overlay .contact_details ul {
+        margin-bottom: 0; }
+        #contact_part .contact_overlay .contact_details ul li {
+          margin-bottom: 16px !important; }
+          #contact_part .contact_overlay .contact_details ul li .icon {
+            width: 12% !important; }
+          #contact_part .contact_overlay .contact_details ul li:last-child {
+            margin-bottom: 0 !important; }
+
+  /* contact part end */
+  /* footer part start */
+  #footer_part {
+    padding: 40px 0; }
+
+  /* footer part end */ }
+/* medium device responsive end */
+/* large device responsive start */
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* navbar part start */
+  #navbar button {
+    padding-top: 0;
+    padding-bottom: 0; }
+    #navbar button:focus {
+      outline: 0; }
+
+  /* navbar part end */
+  /* about part start */
+  #about_part .about_overlay .about_card {
+    margin: 20px auto 0px auto; }
+  #about_part .about_overlay .about_text p {
+    padding: 16px 0; }
+  #about_part .about_overlay ul {
+    margin-bottom: 16px; }
+    #about_part .about_overlay ul li {
+      font-size: 15px; }
+
+  /* about part end */
+  /* skills part start */
+  #skills_part .skills_overlay .row.first {
+    margin-bottom: 16px !important; }
+  #skills_part .skills_overlay .row {
+    margin-bottom: 0 !important; }
+    #skills_part .skills_overlay .row .col-lg-3 {
+      margin-bottom: 16px; }
+
+  /* skills part end */
+  /* education part start */
+  #education .edu_overlay .edu_details {
+    margin-bottom: 50px; }
+    #education .edu_overlay .edu_details h6::after {
+      left: 115%; }
+    #education .edu_overlay .edu_details h6::before {
+      left: 114%; }
+    #education .edu_overlay .edu_details .row {
+      margin-bottom: 20px; }
+  #education .edu_overlay .exp_details h6::after {
+    left: 115%; }
+  #education .edu_overlay .exp_details h6::before {
+    left: 114%; }
+  #education .edu_overlay .exp_details .row {
+    margin-bottom: 20px; }
+
+  /* education part end */
+  /* work part start */
+  #work_part .work_overlay #porfolio-nav ul li {
+    width: auto;
+    margin: 0;
+    line-height: 26px; }
+    #work_part .work_overlay #porfolio-nav ul li:last-child {
+      margin-bottom: 0 !important; }
+
+  /* work part end */
+  /* clients part start */
+  #clients_part .clients_overlay .clients_item .left {
+    right: 30px; }
+  #clients_part .clients_overlay .clients_item .right {
+    right: 80px; }
+  #clients_part .clients_overlay .clients_card .first_row .col_content {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    margin-bottom: 10px; }
+    #clients_part .clients_overlay .clients_card .first_row .col_content .img_text h3 {
+      font-size: 22px; }
+    #clients_part .clients_overlay .clients_card .first_row .col_content .img_text h4 {
+      font-size: 14px; }
+  #clients_part .clients_overlay .clients_card .clients_text::after {
+    left: 78%; }
+
+  /* clients part end */
+  /* contact part start */
+  #contact_part .contact_overlay .contact_details ul {
+    margin-bottom: 0; }
+    #contact_part .contact_overlay .contact_details ul li .icon {
+      width: 22% !important; }
+    #contact_part .contact_overlay .contact_details ul li:last-child {
+      margin-bottom: 0 !important; }
+
+  /* contact part end */ }
+/* large device responsive end */
+
+/*# sourceMappingURL=responsive.css.map */
