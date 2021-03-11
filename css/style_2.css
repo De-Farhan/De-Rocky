@@ -1,8 +1,6 @@
 /* 
 ------------------
 Template Name: Personal Portfolio HTML Template
-Author: illuminetheme
-Author Email: defarhan91@gmail.com
 Version: 2.00 (light Version)
 ----------------
 
@@ -16,8 +14,9 @@ Table of Content
 5.education part start
 6.work part start
 7.clients part start
-8.contact part start
-9.footer part start
+8.blog part start
+9.contact part start
+10.footer part start
 
 */
 * {
@@ -339,7 +338,7 @@ body {
   padding: 100px 0;
   width: 100%;
   height: 100%;
-  background: rgba(241, 241, 241, 0.5); }
+  background: #f2f2f2; }
   #skills_part .skills_overlay .row.first {
     margin-bottom: 30px; }
   #skills_part .skills_overlay .text_p {
@@ -398,7 +397,7 @@ body {
   padding: 100px 0;
   width: 100%;
   height: 100%;
-  background: rgba(241, 241, 241, 0.5); }
+  background: #f2f2f2; }
   #work_part .work_overlay #elastic_grid_demo #porfolio-nav ul {
     margin: 0 0 16px 0;
     padding-bottom: 20px;
@@ -535,7 +534,7 @@ body {
       height: 90%;
       border-radius: 50%; }
   #clients_part .clients_overlay .clients_card .clients_text {
-    background: rgba(241, 241, 241, 0.6);
+    background: #f2f2f2;
     padding: 30px;
     text-align: center;
     position: relative; }
@@ -548,7 +547,7 @@ body {
       height: 0;
       border-width: 15px;
       border-style: solid;
-      border-color: transparent transparent rgba(241, 241, 241, 0.6); }
+      border-color: transparent transparent #f2f2f2; }
     #clients_part .clients_overlay .clients_card .clients_text .icon_stars {
       margin-top: 10px; }
       #clients_part .clients_overlay .clients_card .clients_text .icon_stars i {
@@ -556,14 +555,79 @@ body {
         color: #cb218d; }
 
 /* clients part end */
+/* blog part start */
+#blog_part .blog_overlay {
+  padding: 100px 0;
+  width: 100%;
+  height: 100%;
+  background: #f2f2f2; }
+  #blog_part .blog_overlay .blog_items {
+    padding: 30px 15px;
+    background: #d9d9d9;
+    border-radius: 3px; }
+    #blog_part .blog_overlay .blog_items .blog_img {
+      width: 100%;
+      height: 100%;
+      margin-bottom: 10px; }
+      #blog_part .blog_overlay .blog_items .blog_img img {
+        width: 100%; }
+    #blog_part .blog_overlay .blog_items .blog_details .date_t {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between; }
+      #blog_part .blog_overlay .blog_items .blog_details .date_t p {
+        color: #777777; }
+    #blog_part .blog_overlay .blog_items .blog_details .blog_text h3 {
+      font-size: 24px;
+      margin: 20px 0 8px 0; }
+      #blog_part .blog_overlay .blog_items .blog_details .blog_text h3 a {
+        color: #111111;
+        -webkit-transition: linear 0.4s;
+        transition: linear 0.4s; }
+    #blog_part .blog_overlay .blog_items .blog_details .blog_text .blog_btn {
+      margin-top: 10px; }
+      #blog_part .blog_overlay .blog_items .blog_details .blog_text .blog_btn a {
+        font-family: "Teko", sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        color: #111111;
+        -webkit-transition: linear 0.4s;
+        transition: linear 0.4s; }
+        #blog_part .blog_overlay .blog_items .blog_details .blog_text .blog_btn a i {
+          font-size: 16px; }
+    #blog_part .blog_overlay .blog_items:hover .blog_details .blog_text h3 a {
+      color: #cb218d; }
+    #blog_part .blog_overlay .blog_items:hover .blog_details .blog_btn a {
+      color: #cb218d; }
+  #blog_part .blog_overlay .browse_btn {
+    text-align: center;
+    margin-top: 40px; }
+    #blog_part .blog_overlay .browse_btn a {
+      display: inline-block;
+      font-family: "Teko", sans-serif;
+      color: #ffffff;
+      background: -webkit-gradient(linear, left top, right bottom, color-stop(-5%, #cb218d), to(#262626));
+      background: linear-gradient(to bottom right, #cb218d -5%, #262626 100%);
+      font-size: 16px;
+      font-weight: 400;
+      padding: 10px 30px;
+      margin: 0 auto; }
+      #blog_part .blog_overlay .browse_btn a:hover {
+        color: #ffffff;
+        background: -webkit-gradient(linear, left top, right bottom, color-stop(100%, #cb218d), color-stop(0%, #262626));
+        background: linear-gradient(to bottom right, #cb218d 100%, #262626 0%); }
+
+/* blog part end */
 /* contact part start */
 #contact_part .contact_overlay {
   padding: 100px 0;
   width: 100%;
-  height: 100%;
-  background: rgba(241, 241, 241, 0.5); }
+  height: 100%; }
   #contact_part .contact_overlay form {
-    background: rgba(241, 241, 241, 0.7);
+    background: #f2f2f2;
     -webkit-box-shadow: none;
             box-shadow: none; }
     #contact_part .contact_overlay form input[type="text"],

@@ -1,15 +1,45 @@
+// color switcher js script start
+var colorSheets = [
+  {
+      color: "#cb218d",
+      title: "Switch to Default",
+      href: "css/color/color_default.css"
+  },
+  {
+      color: "#9900cc",
+      title: "Switch to Violet",
+      href: "css/color/color_violet.css"
+  },
+  {
+      color: "#ec9f05",
+      title: "Switch to Yellow",
+      href: "css/color/color_yellow.css"
+  },
+  {
+      color: "#ff0000",
+      title: "Switch to Red",
+      href: "css/color/color_red.css"
+  },
+  {
+      color: "#008040",
+      title: "Switch to Green",
+      href: "css/color/color_green.css"
+  },
+  {
+    color: "#3366ff",
+    title: "Switch to Blue",
+    href: "css/color/color_blue.css"
+}
+];
+
+ColorSwitcher.init(colorSheets);
+// color switcher js script end
 
 //  navbar collapse js
 $("#navbar ul li a").on("click", function () {
   $("#navbar .navbar-collapse").collapse("hide");
 });
 // navbar collapse js end
-
-// Add scrollsmooth to <html>
-$(document).ready(function () {
-  $("html").easeScroll();
-});
-// Add scrollsmooth to <html>
 
 // Add scrollspy to <body>
 $(document).ready(function () {
@@ -25,7 +55,7 @@ $(document).ready(function () {
 
 // Add smooth scrolling on all links inside the navbar
 $(document).ready(function () {
-  $("#navbar ul li a, #banner_btn").on("click", function (event) {
+  $("#navbar ul li a, #banner_btn, #to_top a").on("click", function (event) {
     // Make sure this.hash has a value before overriding default behavior
     if (this.hash !== "") {
       // Prevent default anchor click behavior
@@ -112,13 +142,3 @@ $(window).on("scroll", function () {
 });
 // fixed to top button
 
-// scroll to top button
-$("#to_top").on("click", function () {
-  $("html, body").animate(
-    {
-      scrollTop: 0,
-    },
-    1000
-  );
-});
-// scroll to top button

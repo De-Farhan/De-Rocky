@@ -1,4 +1,5 @@
 /* All section responsive start here blew */
+/* responsive index page start*/
 /* extra small device responsive start */
 @media (min-width: 320px) and (max-width: 575px) {
   /* common css start */
@@ -140,6 +141,11 @@
               transform: translateX(-50%); }
 
   /* clients part end */
+  /* blog part start */
+  #blog_part .blog_overlay {
+    padding: 60px 0; }
+
+  /* blog part end */
   /* contact part start */
   #contact_part .contact_overlay {
     padding: 60px 0; }
@@ -315,6 +321,11 @@
       left: 78%; }
 
   /* clients part end */
+  /* blog part start */
+  #blog_part .blog_overlay {
+    padding: 60px 0; }
+
+  /* blog part end */
   /* contact part start */
   #contact_part .contact_overlay {
     padding: 60px 0; }
@@ -449,6 +460,11 @@
         margin-bottom: 0 !important; }
 
   /* work part end */
+  /* blog part start */
+  #blog_part .blog_overlay {
+    padding: 60px 0; }
+
+  /* blog part end */
   /* clients part start */
   #clients_part .clients_overlay {
     padding: 60px 0 120px 0; }
@@ -581,5 +597,238 @@
 
   /* contact part end */ }
 /* large device responsive end */
+/* responsive index page end*/
+/* responsive latest blog page start*/
+/* extra small device responsive start*/
+@media (min-width: 320px) and (max-width: 575px) {
+  /*------------ start responsive blog part ------------*/
+  #blog_part {
+    margin-top: 60px; }
+    #blog_part .row {
+      margin-top: 0;
+      margin-bottom: 0; }
+    #blog_part .blog_items {
+      margin-bottom: 30px; }
+      #blog_part .blog_items .blog_details {
+        text-align: center; }
+
+  /*------------ end responsive blog part ------------*/ }
+/* extra small device responsive end*/
+/* small device responsive start*/
+@media (min-width: 576px) and (max-width: 767px) {
+  /*------------ start responsive blog part ------------*/
+  #blog_part {
+    margin-top: 60px; }
+    #blog_part .row {
+      margin-top: 0;
+      margin-bottom: 0; }
+    #blog_part .blog_items {
+      margin-bottom: 30px; }
+      #blog_part .blog_items .blog_details {
+        text-align: center; }
+        #blog_part .blog_items .blog_details .blog_text h3 {
+          font-size: 24px; }
+        #blog_part .blog_items .blog_details .blog_text .blog_btn a {
+          font-size: 18px; }
+
+  /*------------ end responsive blog part ------------*/ }
+/* small device responsive end*/
+/* medium device responsive start*/
+@media (min-width: 768px) and (max-width: 991px) {
+  /*------------ start responsive blog part ------------*/
+  #blog_part {
+    margin-top: 60px; }
+    #blog_part .row {
+      margin-top: 0;
+      margin-bottom: 0; }
+    #blog_part .blog_items {
+      margin-bottom: 30px; }
+      #blog_part .blog_items .blog_details {
+        text-align: center; }
+        #blog_part .blog_items .blog_details .blog_text h3 {
+          font-size: 24px; }
+        #blog_part .blog_items .blog_details .blog_text .blog_btn a {
+          font-size: 18px; }
+
+  /*------------ end responsive blog part ------------*/ }
+/* medium device responsive end*/
+/* responsive latest blog page end*/
+/* responsive blog details page start*/
+/* extra small device responsive start*/
+@media (min-width: 320px) and (max-width: 575px) {
+  #details_part .details_items {
+    margin: 40px 0; }
+    #details_part .details_items .img_details {
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap; }
+      #details_part .details_items .img_details .details_box {
+        margin-bottom: 16px; }
+        #details_part .details_items .img_details .details_box:last-child {
+          margin: 0 auto; }
+    #details_part .details_items .details_text {
+      margin: 20px 0 20px 0; }
+      #details_part .details_items .details_text h3 {
+        font-size: 24px; }
+    #details_part .details_items .details_blog .blog_items {
+      margin-bottom: 30px; }
+      #details_part .details_items .details_blog .blog_items .p_first {
+        margin: 8px 0 !important; }
+    #details_part .details_items .share_box {
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap; }
+      #details_part .details_items .share_box .share_text {
+        margin-bottom: 10px; }
+    #details_part .details_items .tag_box {
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+      margin-top: 0; }
+      #details_part .details_items .tag_box .tag_text {
+        margin-bottom: 10px; }
+      #details_part .details_items .tag_box .tag_items a p {
+        padding-left: 13px !important;
+        padding-right: 13px !important; }
+    #details_part .details_items .comments .comments_left .c_img_details {
+      margin-top: 10px; }
+    #details_part .details_items .comments .comments_right .user_icon {
+      margin-bottom: 30px; }
+    #details_part .details_items .updates {
+      margin-top: 0; }
+      #details_part .details_items .updates .updates_items {
+        margin-bottom: 30px;
+        text-align: center; }
+        #details_part .details_items .updates .updates_items .u_img_text {
+          -ms-flex-wrap: wrap;
+              flex-wrap: wrap; }
+          #details_part .details_items .updates .updates_items .u_img_text .text_content {
+            margin: 0 auto; }
+        #details_part .details_items .updates .updates_items .updates_details h3 {
+          font-size: 24px; }
+        #details_part .details_items .updates .updates_items .updates_details .u_btn a {
+          font-size: 18px; }
+      #details_part .details_items .updates .updates_btn {
+        margin-top: 0; } }
+/* extra small device responsive end*/
+/* small device responsive start*/
+@media (min-width: 576px) and (max-width: 767px) {
+  #details_part .details_items {
+    margin: 40px 0; }
+    #details_part .details_items .img_details {
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap; }
+      #details_part .details_items .img_details .details_box {
+        margin-bottom: 16px; }
+        #details_part .details_items .img_details .details_box:last-child {
+          margin: 0 auto; }
+    #details_part .details_items .details_text {
+      margin: 20px 0 20px 0; }
+    #details_part .details_items .details_blog .blog_items {
+      margin-bottom: 30px; }
+      #details_part .details_items .details_blog .blog_items .p_first {
+        margin: 8px 0 !important; }
+    #details_part .details_items .share_box {
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap; }
+      #details_part .details_items .share_box .share_text {
+        margin-bottom: 10px; }
+    #details_part .details_items .tag_box {
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+      margin-top: 0; }
+      #details_part .details_items .tag_box .tag_text {
+        margin-bottom: 10px; }
+      #details_part .details_items .tag_box .tag_items a p {
+        padding-left: 13px !important;
+        padding-right: 13px !important; }
+    #details_part .details_items .comments .comments_left .c_img_details {
+      margin-top: 10px; }
+    #details_part .details_items .comments .comments_right .user_icon {
+      margin-bottom: 30px; }
+    #details_part .details_items .updates {
+      margin-top: 0; }
+      #details_part .details_items .updates .updates_items {
+        margin-bottom: 30px;
+        text-align: center; }
+        #details_part .details_items .updates .updates_items .u_img_text {
+          -ms-flex-wrap: wrap;
+              flex-wrap: wrap; }
+          #details_part .details_items .updates .updates_items .u_img_text .text_content {
+            margin: 0 auto; }
+      #details_part .details_items .updates .updates_btn {
+        margin-top: 0; } }
+/* small device responsive end*/
+/* medium device responsive start*/
+@media (min-width: 768px) and (max-width: 991px) {
+  #details_part .details_items {
+    margin: 40px 0; }
+    #details_part .details_items .img_details {
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap; }
+      #details_part .details_items .img_details .details_box {
+        margin-bottom: 16px; }
+    #details_part .details_items .details_text {
+      margin: 20px 0 20px 0; }
+    #details_part .details_items .details_blog .blog_items {
+      margin-bottom: 30px; }
+      #details_part .details_items .details_blog .blog_items .p_first {
+        margin: 8px 0 !important; }
+    #details_part .details_items .share_box {
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+      -ms-flex-pack: distribute;
+          justify-content: space-around; }
+      #details_part .details_items .share_box .share_text {
+        margin-bottom: 10px; }
+    #details_part .details_items .tag_box {
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+      margin-top: 0;
+      -ms-flex-pack: distribute;
+          justify-content: space-around; }
+      #details_part .details_items .tag_box .tag_text {
+        margin-bottom: 10px; }
+      #details_part .details_items .tag_box .tag_items a p {
+        padding-left: 13px !important;
+        padding-right: 13px !important; }
+    #details_part .details_items .comments .comments_left .c_img_details {
+      margin-top: 10px; }
+    #details_part .details_items .comments .comments_right .user_icon {
+      margin-bottom: 30px; }
+    #details_part .details_items .updates {
+      margin-top: 0; }
+      #details_part .details_items .updates .updates_items {
+        width: 500px;
+        margin: auto auto 30px auto;
+        text-align: center; }
+        #details_part .details_items .updates .updates_items .u_img_text {
+          -ms-flex-wrap: wrap;
+              flex-wrap: wrap; }
+          #details_part .details_items .updates .updates_items .u_img_text .text_content {
+            margin: 0 auto; }
+      #details_part .details_items .updates .updates_btn {
+        margin-top: 0; } }
+/* medium device responsive end*/
+/* large device responsive start*/
+@media (min-width: 992px) and (max-width: 1199px) {
+  #details_part .details_items .share_box {
+    -ms-flex-pack: distribute;
+        justify-content: space-around; }
+    #details_part .details_items .share_box .share_text {
+      margin-bottom: 10px; }
+      #details_part .details_items .share_box .share_text::after {
+        display: none; }
+  #details_part .details_items .tag_box {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around; }
+    #details_part .details_items .tag_box .tag_text {
+      margin-bottom: 10px; }
+      #details_part .details_items .tag_box .tag_text::after {
+        display: none; }
+    #details_part .details_items .tag_box .tag_items a p {
+      padding-left: 13px !important;
+      padding-right: 13px !important; } }
+/* large device responsive end*/
+/* responsive blog details page end*/
 
 /*# sourceMappingURL=responsive.css.map */

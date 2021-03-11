@@ -1,8 +1,6 @@
 /* 
 ------------------
 Template Name: Personal Portfolio HTML Template
-Author: illuminetheme
-Author Email: defarhan91@gmail.com
 Version: 3.00 (Transparent Version)
 ----------------
 
@@ -16,8 +14,9 @@ Table of Content
 5.education part start
 6.work part start
 7.clients part start
-8.contact part start
-9.footer part start
+8.blog part start
+9.contact part start
+10.footer part start
 
 */
 
@@ -693,6 +692,102 @@ body {
   }
 }
 /* clients part end */
+
+/* blog part start */
+#blog_part {
+  background: url(../images/blog_bg.jpg) no-repeat center;
+  background-size: cover;
+  .blog_overlay {
+    padding: 100px 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    .blog_items {
+      padding: 30px 15px;
+      background: rgba(0, 0, 0, 0.6);
+      border-radius: 3px;
+      .blog_img {
+        width: 100%;
+        height: 100%;
+        margin-bottom: 10px;
+        img {
+          width: 100%;
+        }
+      }
+      .blog_details {
+        .date_t {
+          display: flex;
+          justify-content: space-between;
+          p {
+            color: #999999;
+          }
+        }
+        .blog_text {
+          h3 {
+            font-size: 24px;
+            margin: 20px 0 8px 0;
+            a {
+              color: #ffffff;
+              transition: linear 0.4s;
+            }
+          }
+          .blog_btn {
+            margin-top: 10px;
+            a {
+              font-family: "Teko", sans-serif;
+              font-weight: 500;
+              font-size: 16px;
+              color: #ffffff;
+              transition: linear 0.4s;
+              i {
+                font-size: 16px;
+              }
+            }
+          }
+        }
+      }
+      &:hover {
+        .blog_details {
+          .blog_text {
+            h3 {
+              a {
+                color: #cb218d;
+              }
+            }
+          }
+          .blog_btn {
+            a {
+              color: #cb218d;
+            }
+          }
+        }
+      }
+    }
+    .browse_btn {
+      text-align: center;
+      margin-top: 40px;
+      a {
+        display: inline-block;
+        font-family: "Teko", sans-serif;
+        color: #ffffff;
+        background: linear-gradient(to bottom right, #cb218d -5%, #262626 100%);
+        font-size: 16px;
+        font-weight: 400;
+        padding: 10px 30px;
+        margin: 0 auto;
+        &:hover {
+          color: #ffffff;
+          background: linear-gradient(
+            to bottom right,
+            #cb218d 100%,
+            #262626 0%
+          );
+        }
+      }
+    }
+  }
+}
+/* blog part end */
 
 /* contact part start */
 #contact_part {
