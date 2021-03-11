@@ -203,7 +203,7 @@ body {
   position: fixed !important;
   background: #ffffff;
   padding: 10px 0 !important;
-  border-bottom: 1px solid #cb218d !important;
+  border-bottom: 1px solid #008040 !important;
   -webkit-transition: none !important;
   transition: none !important;
   -webkit-animation: my_ani 1s linear;
@@ -229,7 +229,7 @@ body {
       .nav_fixed ul li a::after {
         background: #111111 !important; }
     .nav_fixed ul li .active::after {
-      background: #cb218d !important; }
+      background: #008040 !important; }
 
 /* navbar part end */
 /* banner part start */
@@ -258,7 +258,7 @@ body {
       text-align: center; }
       #banner_part .overlay .banner_text h2 {
         font-size: 32px;
-        color: #cb218d; }
+        color: #008040; }
       #banner_part .overlay .banner_text h5 {
         font-size: 20px;
         color: #ffffff; }
@@ -267,7 +267,7 @@ body {
           -webkit-transition: linear 0.4s;
           transition: linear 0.4s; }
           #banner_part .overlay .banner_text h5 a:hover {
-            color: #cb218d; }
+            color: #008040; }
         #banner_part .overlay .banner_text h5 span i {
           font-size: 16px; }
 
@@ -301,12 +301,12 @@ body {
     text-align: center; }
     #details_part .details_items .details_text h3 {
       font-size: 30px;
-      color: #cb218d; }
+      color: #008040; }
     #details_part .details_items .details_text .p_first {
       margin: 16px 0; }
   #details_part .details_items .comments h2 {
     font-size: 30px;
-    color: #cb218d;
+    color: #008040;
     border-bottom: 1px solid rgba(153, 153, 153, 0.3);
     padding-bottom: 2px; }
   #details_part .details_items .comments .comments_left {
@@ -331,7 +331,7 @@ body {
       width: 100%; }
       #details_part .details_items .comments .comments_left .c_img_details .name_title .name h4 {
         font-size: 20px;
-        color: #cb218d; }
+        color: #008040; }
       #details_part .details_items .comments .comments_left .c_img_details .name_title .hours p {
         color: #999999; }
     #details_part .details_items .comments .comments_left .name_details .reply {
@@ -341,7 +341,7 @@ body {
         -webkit-transition: linear 0.4s;
         transition: linear 0.4s; }
         #details_part .details_items .comments .comments_left .name_details .reply a:hover {
-          color: #cb218d; }
+          color: #008040; }
   #details_part .details_items .comments .comments_right .row {
     margin: 30px 0; }
   #details_part .details_items .comments .comments_right .user_icon {
@@ -406,9 +406,9 @@ body {
           #details_part .details_items .updates .updates_items .updates_details .u_btn a i {
             font-size: 16px; }
       #details_part .details_items .updates .updates_items:hover .updates_details h3 a {
-        color: #cb218d; }
+        color: #008040; }
       #details_part .details_items .updates .updates_items:hover .updates_details .u_btn a {
-        color: #cb218d; }
+        color: #008040; }
     #details_part .details_items .updates .updates_btn {
       text-align: center;
       margin-top: 40px; }
@@ -416,16 +416,16 @@ body {
         display: inline-block;
         font-family: "Teko", sans-serif;
         color: #ffffff;
-        background: -webkit-gradient(linear, left top, right bottom, color-stop(-5%, #cb218d), to(#262626));
-        background: linear-gradient(to bottom right, #cb218d -5%, #262626 100%);
+        background: -webkit-gradient(linear, left top, right bottom, color-stop(-5%, #008040), to(#262626));
+        background: linear-gradient(to bottom right, #008040 -5%, #262626 100%);
         font-size: 16px;
         font-weight: 400;
         padding: 10px 30px;
         margin: 0 auto; }
         #details_part .details_items .updates .updates_btn a:hover {
           color: #ffffff;
-          background: -webkit-gradient(linear, left top, right bottom, color-stop(100%, #cb218d), color-stop(0%, #262626));
-          background: linear-gradient(to bottom right, #cb218d 100%, #262626 0%); }
+          background: -webkit-gradient(linear, left top, right bottom, color-stop(100%, #008040), color-stop(0%, #262626));
+          background: linear-gradient(to bottom right, #008040 100%, #262626 0%); }
 
 /* blog details part end */
 /* footer part start */
@@ -448,14 +448,14 @@ body {
       border-radius: 50%;
       font-size: 18px;
       color: #ffffff;
-      background: -webkit-gradient(linear, left top, right bottom, color-stop(-5%, #cb218d), to(#262626));
-      background: linear-gradient(to bottom right, #cb218d -5%, #262626 100%);
+      background: -webkit-gradient(linear, left top, right bottom, color-stop(-5%, #008040), to(#262626));
+      background: linear-gradient(to bottom right, #008040 -5%, #262626 100%);
       text-align: center;
       line-height: 40px;
       margin-right: 10px; }
       #footer_part .footer_icons i:hover {
-        background: -webkit-gradient(linear, left top, right bottom, color-stop(100%, #cb218d), color-stop(0%, #262626));
-        background: linear-gradient(to bottom right, #cb218d 100%, #262626 0%); }
+        background: -webkit-gradient(linear, left top, right bottom, color-stop(100%, #008040), color-stop(0%, #262626));
+        background: linear-gradient(to bottom right, #008040 100%, #262626 0%); }
   #footer_part .copy_right p {
     text-transform: capitalize;
     color: #ffffff; }
@@ -464,7 +464,7 @@ body {
       #footer_part .copy_right p span span {
         display: inline-block;
         font-weight: 700;
-        color: #cb218d; }
+        color: #008040; }
 
 /* footer part end */
 /* scroll to top button */
@@ -475,13 +475,13 @@ body {
     height: 55px;
     font-size: 20px;
     color: #ffffff;
-    background: -webkit-gradient(linear, left top, right bottom, color-stop(-5%, #cb218d), to(#262626));
-    background: linear-gradient(to bottom right, #cb218d -5%, #262626 100%);
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(-5%, #008040), to(#262626));
+    background: linear-gradient(to bottom right, #008040 -5%, #262626 100%);
     text-align: center;
     line-height: 55px; }
     #to_top a i:hover {
-      background: -webkit-gradient(linear, left top, right bottom, color-stop(100%, #cb218d), color-stop(0%, #262626));
-      background: linear-gradient(to bottom right, #cb218d 100%, #262626 0%); }
+      background: -webkit-gradient(linear, left top, right bottom, color-stop(100%, #008040), color-stop(0%, #262626));
+      background: linear-gradient(to bottom right, #008040 100%, #262626 0%); }
 
 .to_top_fixed {
   display: block !important;
@@ -490,5 +490,4 @@ body {
   right: 30px; }
 
 /* scroll to top button */
-
 /*# sourceMappingURL=blog_details2.css.map */

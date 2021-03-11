@@ -215,7 +215,7 @@ body {
   position: fixed !important;
   background: #ffffff;
   padding: 10px 0 !important;
-  border-bottom: 1px solid #cb218d !important;
+  border-bottom: 1px solid #008040 !important;
   transition: none !important;
   animation: my_ani 1s linear;
   @keyframes my_ani {
@@ -246,7 +246,7 @@ body {
         }
       }
       .active::after {
-        background: #cb218d !important;
+        background: #008040 !important;
       }
     }
   }
@@ -279,14 +279,14 @@ body {
       text-align: center;
       h2 {
         font-size: 32px;
-        color: #cb218d;
+        color: #008040;
       }
       h5 {
         a {
           color: #ffffff;
           transition: linear 0.4s;
           &:hover {
-            color: #cb218d;
+            color: #008040;
           }
         }
         span {
@@ -357,13 +357,13 @@ body {
         .blog_text {
           h3 {
             a {
-              color: #cb218d;
+              color: #008040;
             }
           }
         }
         .blog_btn {
           a {
-            color: #cb218d;
+            color: #008040;
           }
         }
       }
@@ -397,7 +397,7 @@ body {
       color: #ffffff;
       background: linear-gradient(
         to bottom right,
-        rgb(203, 33, 141) -5%,
+        #008040 -5%,
         rgb(38, 38, 38) 100%
       );
       text-align: center;
@@ -406,7 +406,7 @@ body {
       &:hover {
         background: linear-gradient(
           to bottom right,
-          rgb(203, 33, 141) 100%,
+          #008040 100%,
           rgb(38, 38, 38) 0%
         );
       }
@@ -421,7 +421,7 @@ body {
         span {
           display: inline-block;
           font-weight: 700;
-          color: #cb218d;
+          color: #008040;
         }
       }
     }
@@ -440,7 +440,7 @@ body {
       color: #ffffff;
       background: linear-gradient(
         to bottom right,
-        rgb(203, 33, 141) -5%,
+        #008040 -5%,
         rgb(38, 38, 38) 100%
       );
       text-align: center;
@@ -448,7 +448,7 @@ body {
       &:hover {
         background: linear-gradient(
           to bottom right,
-          rgb(203, 33, 141) 100%,
+          #008040 100%,
           rgb(38, 38, 38) 0%
         );
       }

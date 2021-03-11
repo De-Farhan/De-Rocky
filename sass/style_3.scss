@@ -157,7 +157,7 @@ body {
   position: fixed !important;
   background: #1a1a1a;
   padding: 10px 0 !important;
-  border-bottom: 1px solid #cb218d !important;
+  border-bottom: 1px solid #008040 !important;
   transition: none !important;
   animation: my_ani 1s linear;
   @keyframes my_ani {
@@ -171,7 +171,7 @@ body {
   ul {
     li {
       .active::after {
-        background: #cb218d !important;
+        background: #008040 !important;
       }
     }
   }
@@ -229,7 +229,7 @@ body {
           height: 220px;
           background: linear-gradient(
             to bottom right,
-            rgb(203, 33, 141) 0%,
+            #008040 0%,
             rgb(38, 38, 38) 100%
           );
           clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
@@ -271,14 +271,14 @@ body {
           color: #ffffff;
           background: linear-gradient(
             to bottom right,
-            rgb(203, 33, 141) -5%,
+            #008040 -5%,
             rgb(38, 38, 38) 100%
           );
           padding: 6px 16px 9px 16px;
           &:hover {
             background: linear-gradient(
               to bottom right,
-              rgb(203, 33, 141) 100%,
+              #008040 100%,
               rgb(38, 38, 38) 0%
             );
           }
@@ -330,7 +330,7 @@ body {
         color: #ffffff;
         background: linear-gradient(
           to bottom right,
-          rgb(203, 33, 141) -5%,
+          #008040 -5%,
           rgb(38, 38, 38) 100%
         );
         text-align: center;
@@ -339,7 +339,7 @@ body {
         &:hover {
           background: linear-gradient(
             to bottom right,
-            rgb(203, 33, 141) 100%,
+            #008040 100%,
             rgb(38, 38, 38) 0%
           );
         }
@@ -373,7 +373,7 @@ body {
       h4 {
         font-size: 34px;
         text-align: center;
-        color: #cb218d;
+        color: #008040;
         span {
           font-size: 24px;
         }
@@ -421,7 +421,7 @@ body {
     .exp_details {
       h6 {
         font-size: 16px;
-        color: #cb218d;
+        color: #008040;
         margin-top: 3px;
         position: relative;
         &::after {
@@ -432,7 +432,7 @@ body {
           transform: translateX(-50%) rotate(90deg);
           width: 13px;
           height: 13px;
-          background: #cb218d;
+          background: #008040;
           clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
         }
       }
@@ -496,12 +496,12 @@ body {
               padding: 6px 12px 9px 12px;
               text-transform: uppercase;
               &:hover {
-                background: #cb218d;
+                background: #008040;
               }
             }
           }
           li.current a {
-            background: #cb218d;
+            background: #008040;
           }
         }
       }
@@ -514,7 +514,7 @@ body {
               opacity: 0.9;
             }
             figure {
-              background: #cb218d;
+              background: #008040;
               span {
                 position: absolute;
                 top: 50%;
@@ -558,13 +558,13 @@ body {
                   color: #ffffff;
                   background: linear-gradient(
                     to bottom right,
-                    rgb(203, 33, 141) -5%,
+                    #008040 -5%,
                     rgb(38, 38, 38) 100%
                   );
                   &:hover {
                     background: linear-gradient(
                       to bottom right,
-                      rgb(203, 33, 141) 100%,
+                      #008040 100%,
                       rgb(38, 38, 38) 0%
                     );
                   }
@@ -617,14 +617,14 @@ body {
         font-size: 20px;
         background: linear-gradient(
           to bottom right,
-          rgb(203, 33, 141) -5%,
+          #008040 -5%,
           rgb(38, 38, 38) 100%
         );
         color: #ffffff;
         &:hover {
           background: linear-gradient(
             to bottom right,
-            rgb(203, 33, 141) 100%,
+            #008040 100%,
             rgb(38, 38, 38) 0%
           );
         }
@@ -684,7 +684,7 @@ body {
           margin-top: 10px;
           i {
             font-size: 16px;
-            color: #cb218d;
+            color: #008040;
           }
         }
       }
@@ -751,13 +751,13 @@ body {
           .blog_text {
             h3 {
               a {
-                color: #cb218d;
+                color: #008040;
               }
             }
           }
           .blog_btn {
             a {
-              color: #cb218d;
+              color: #008040;
             }
           }
         }
@@ -770,7 +770,7 @@ body {
         display: inline-block;
         font-family: "Teko", sans-serif;
         color: #ffffff;
-        background: linear-gradient(to bottom right, #cb218d -5%, #262626 100%);
+        background: linear-gradient(to bottom right, #008040 -5%, #262626 100%);
         font-size: 16px;
         font-weight: 400;
         padding: 10px 30px;
@@ -779,7 +779,7 @@ body {
           color: #ffffff;
           background: linear-gradient(
             to bottom right,
-            #cb218d 100%,
+            #008040 100%,
             #262626 0%
           );
         }
@@ -811,10 +811,10 @@ body {
         border: 1px solid transparent;
         border-bottom: 1px solid rgba(255, 255, 255, 0.6);
         &:hover {
-          border-bottom: 1px solid #cb218d;
+          border-bottom: 1px solid #008040;
         }
         &:focus {
-          border-bottom: 1px solid #cb218d;
+          border-bottom: 1px solid #008040;
         }
       }
       input[type="text"]::placeholder,
@@ -829,13 +829,13 @@ body {
         font-weight: 700;
         background: linear-gradient(
           to bottom right,
-          rgb(203, 33, 141) -5%,
+          #008040 -5%,
           rgb(38, 38, 38) 100%
         );
         &:hover {
           background: linear-gradient(
             to bottom right,
-            rgb(203, 33, 141) 100%,
+            #008040 100%,
             rgb(38, 38, 38) 0%
           );
         }
@@ -867,7 +867,7 @@ body {
               align-self: center;
               i {
                 font-size: 35px;
-                color: #cb218d;
+                color: #008040;
               }
               .cont {
                 font-size: 30px;
@@ -918,7 +918,7 @@ body {
       color: #ffffff;
       background: linear-gradient(
         to bottom right,
-        rgb(203, 33, 141) -5%,
+        #008040 -5%,
         rgb(38, 38, 38) 100%
       );
       text-align: center;
@@ -927,7 +927,7 @@ body {
       &:hover {
         background: linear-gradient(
           to bottom right,
-          rgb(203, 33, 141) 100%,
+          #008040 100%,
           rgb(38, 38, 38) 0%
         );
       }
@@ -941,7 +941,7 @@ body {
         span {
           display: inline-block;
           font-weight: 700;
-          color: #cb218d;
+          color: #008040;
         }
       }
     }
@@ -960,7 +960,7 @@ body {
       color: #ffffff;
       background: linear-gradient(
         to bottom right,
-        rgb(203, 33, 141) -5%,
+        #008040 -5%,
         rgb(38, 38, 38) 100%
       );
       text-align: center;
@@ -968,7 +968,7 @@ body {
       &:hover {
         background: linear-gradient(
           to bottom right,
-          rgb(203, 33, 141) 100%,
+          #008040 100%,
           rgb(38, 38, 38) 0%
         );
       }

@@ -1,0 +1,185 @@
+#navbar .navbar-brand {
+  color: #ffffff;
+}
+#navbar ul li a {
+  color: #ffffff;
+}
+#navbar ul li a:hover::after {
+  color: #ffffff;
+}
+.nav_fixed ul li .active::after {
+  background: #cb218d !important;
+}
+#banner_part .banner_overlay .banner_content .banner_text #banner_btn:hover {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right bottom,
+    color-stop(100%, #cb218d),
+    color-stop(0%, #262626)
+  );
+  background: linear-gradient(to bottom right, #cb218d 100%, #262626 0%);
+}
+#about_part .about_overlay .icon a:hover {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right bottom,
+    color-stop(100%, #cb218d),
+    color-stop(0%, #262626)
+  );
+  background: linear-gradient(to bottom right, #cb218d 100%, #262626 0%);
+}
+#about_part .about_overlay .about_card h4 {
+  font-size: 34px;
+  text-align: center;
+  color: #cb218d;
+}
+#skills_part .skills_overlay .diagram div:last-child {
+  border-color: rgb(203, 33, 141) rgb(203, 33, 141) transparent transparent;
+}
+#skills_part .skills_overlay .diagram span {
+  color: rgb(203, 33, 141);
+}
+#education .edu_overlay .edu_details h6,
+#education .edu_overlay .exp_details h6 {
+  color: #cb218d;
+}
+#education .edu_overlay .edu_details h6::after,
+#education .edu_overlay .exp_details h6::after {
+  background: #cb218d;
+}
+#work_part .work_overlay #elastic_grid_demo #porfolio-nav ul li.current a {
+  background: #cb218d;
+}
+#work_part .work_overlay #elastic_grid_demo #porfolio-nav ul li a:hover {
+  background: #cb218d;
+}
+#work_part .work_overlay #elastic_grid_demo ul#og-grid li a figure {
+  background: #cb218d;
+}
+#work_part
+  .work_overlay
+  #elastic_grid_demo
+  ul#og-grid
+  .og-expander
+  .og-expander-inner
+  .og-details
+  span
+  a {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right bottom,
+    color-stop(-5%, #cb218d),
+    to(#262626)
+  );
+  background: linear-gradient(to bottom right, #cb218d -5%, #262626 100%);
+}
+#clients_part .clients_overlay .clients_card .clients_text .icon_stars i {
+  color: #cb218d;
+}
+#clients_part .clients_overlay .clients_item .right,
+#clients_part .clients_overlay .clients_item .left {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right bottom,
+    color-stop(-5%, #cb218d),
+    to(#262626)
+  );
+  background: linear-gradient(to bottom right, #cb218d -5%, #262626 100%);
+}
+#clients_part .clients_overlay .clients_item .right:hover,
+#clients_part .clients_overlay .clients_item .left:hover {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right bottom,
+    color-stop(100%, #cb218d),
+    color-stop(0%, #262626)
+  );
+  background: linear-gradient(to bottom right, #cb218d 100%, #262626 0%);
+}
+#blog_part .blog_overlay .blog_items:hover .blog_details .blog_text h3 a {
+  color: #cb218d;
+}
+#blog_part .blog_overlay .blog_items:hover .blog_details .blog_btn a {
+  color: #cb218d;
+}
+#blog_part .blog_overlay .browse_btn a {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right bottom,
+    color-stop(-5%, #cb218d),
+    to(#262626)
+  );
+  background: linear-gradient(to bottom right, #cb218d -5%, #262626 100%);
+}
+#contact_part .contact_overlay form input[type="text"]:hover,
+#contact_part .contact_overlay form input[type="email"]:hover,
+#contact_part .contact_overlay form textarea:hover {
+  border-bottom: 1px solid #cb218d;
+}
+#contact_part .contact_overlay form input[type="text"]:focus,
+#contact_part .contact_overlay form input[type="email"]:focus,
+#contact_part .contact_overlay form textarea:focus {
+  border-bottom: 1px solid #cb218d;
+}
+#contact_part .contact_overlay form button[type="submit"] {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right bottom,
+    color-stop(-5%, #cb218d),
+    to(#262626)
+  );
+  background: linear-gradient(to bottom right, #cb218d -5%, #262626 100%);
+}
+#contact_part .contact_overlay form button[type="submit"]:hover {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right bottom,
+    color-stop(100%, #cb218d),
+    color-stop(0%, #262626)
+  );
+  background: linear-gradient(to bottom right, #cb218d 100%, #262626 0%);
+}
+#contact_part .contact_overlay .contact_details .icon_text ul li .icon i {
+  color: #cb218d;
+}
+#footer_part .footer_icons i {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right bottom,
+    color-stop(-5%, #cb218d),
+    to(#262626)
+  );
+  background: linear-gradient(to bottom right, #cb218d -5%, #262626 100%);
+}
+#footer_part .copy_right p span span {
+  color: #cb218d;
+}
+#to_top a i {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right bottom,
+    color-stop(-5%, #cb218d),
+    to(#262626)
+  );
+  background: linear-gradient(to bottom right, #cb218d -5%, #262626 100%);
+}
+#to_top a i:hover {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right bottom,
+    color-stop(100%, #cb218d),
+    color-stop(0%, #262626)
+  );
+  background: linear-gradient(to bottom right, #cb218d 100%, #262626 0%);
+}

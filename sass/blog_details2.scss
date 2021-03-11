@@ -216,7 +216,7 @@ body {
   position: fixed !important;
   background: #ffffff;
   padding: 10px 0 !important;
-  border-bottom: 1px solid #cb218d !important;
+  border-bottom: 1px solid #008040 !important;
   transition: none !important;
   animation: my_ani 1s linear;
   @keyframes my_ani {
@@ -247,7 +247,7 @@ body {
         }
       }
       .active::after {
-        background: #cb218d !important;
+        background: #008040 !important;
       }
     }
   }
@@ -280,14 +280,14 @@ body {
       text-align: center;
       h2 {
         font-size: 32px;
-        color: #cb218d;
+        color: #008040;
       }
       h5 {
         a {
           color: #ffffff;
           transition: linear 0.4s;
           &:hover {
-            color: #cb218d;
+            color: #008040;
           }
         }
         span {
@@ -336,7 +336,7 @@ body {
       text-align: center;
       h3 {
         font-size: 30px;
-        color: #cb218d;
+        color: #008040;
       }
       .p_first {
         margin: 16px 0;
@@ -345,7 +345,7 @@ body {
     .comments {
       h2 {
         font-size: 30px;
-        color: #cb218d;
+        color: #008040;
         border-bottom: 1px solid rgba(153, 153, 153, 0.3);
         padding-bottom: 2px;
       }
@@ -372,7 +372,7 @@ body {
             .name {
               h4 {
                 font-size: 20px;
-                color: #cb218d;
+                color: #008040;
               }
             }
             .hours {
@@ -389,7 +389,7 @@ body {
               color: #999999;
               transition: linear 0.4s;
               &:hover {
-                color: #cb218d;
+                color: #008040;
               }
             }
           }
@@ -479,12 +479,12 @@ body {
           .updates_details {
             h3 {
               a {
-                color: #cb218d;
+                color: #008040;
               }
             }
             .u_btn {
               a {
-                color: #cb218d;
+                color: #008040;
               }
             }
           }
@@ -499,7 +499,7 @@ body {
           color: #ffffff;
           background: linear-gradient(
             to bottom right,
-            #cb218d -5%,
+            #008040 -5%,
             #262626 100%
           );
           font-size: 16px;
@@ -510,7 +510,7 @@ body {
             color: #ffffff;
             background: linear-gradient(
               to bottom right,
-              #cb218d 100%,
+              #008040 100%,
               #262626 0%
             );
           }
@@ -546,7 +546,7 @@ body {
       color: #ffffff;
       background: linear-gradient(
         to bottom right,
-        rgb(203, 33, 141) -5%,
+        #008040 -5%,
         rgb(38, 38, 38) 100%
       );
       text-align: center;
@@ -555,7 +555,7 @@ body {
       &:hover {
         background: linear-gradient(
           to bottom right,
-          rgb(203, 33, 141) 100%,
+          #008040 100%,
           rgb(38, 38, 38) 0%
         );
       }
@@ -570,7 +570,7 @@ body {
         span {
           display: inline-block;
           font-weight: 700;
-          color: #cb218d;
+          color: #008040;
         }
       }
     }
@@ -589,7 +589,7 @@ body {
       color: #ffffff;
       background: linear-gradient(
         to bottom right,
-        rgb(203, 33, 141) -5%,
+        #008040 -5%,
         rgb(38, 38, 38) 100%
       );
       text-align: center;
@@ -597,7 +597,7 @@ body {
       &:hover {
         background: linear-gradient(
           to bottom right,
-          rgb(203, 33, 141) 100%,
+          #008040 100%,
           rgb(38, 38, 38) 0%
         );
       }

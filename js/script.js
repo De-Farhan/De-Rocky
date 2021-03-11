@@ -1,9 +1,14 @@
 // color switcher js script start
 var colorSheets = [
   {
+    color: "#008040",
+    title: "Switch to Default",
+    href: "css/color/color_default.css"
+  },
+  {
       color: "#cb218d",
-      title: "Switch to Default",
-      href: "css/color/color_default.css"
+      title: "Switch to Magenta",
+      href: "css/color/color_magenta.css"
   },
   {
       color: "#9900cc",
@@ -21,17 +26,11 @@ var colorSheets = [
       href: "css/color/color_red.css"
   },
   {
-      color: "#008040",
-      title: "Switch to Green",
-      href: "css/color/color_green.css"
-  },
-  {
     color: "#3366ff",
     title: "Switch to Blue",
     href: "css/color/color_blue.css"
 }
 ];
-
 ColorSwitcher.init(colorSheets);
 // color switcher js script end
 

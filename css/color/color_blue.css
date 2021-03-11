@@ -1,5 +1,5 @@
 .nav_fixed {
-  border-bottom: 1px solid #3366ff;
+  border-bottom: 1px solid #3366ff !important;
 }
 .nav_fixed ul li .active::after {
   background: rgba(51, 102, 255, 0.6) !important;
