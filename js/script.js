@@ -1,3 +1,7 @@
+// wow animate js start
+new WOW().init();
+// wow animate js end
+
 // color switcher js script start
 var colorSheets = [
   {
